@@ -1,0 +1,45 @@
+.dark {
+  background-color: rgba(175, 16, 43, 0.89);
+}
+
+.rbc-event {
+  background-color: rgba(175, 16, 43, 0.89);
+}
+
+@font-face {
+  font-family: Titillium;
+  src: url("../Titillium_Web/TitilliumWeb-Black.ttf");
+}
+
+@font-face {
+  font-family: Dosis;
+  src: url("../Dosis-VariableFont_wght.ttf");
+}
+
+.noBullet {
+  list-style: none;
+}
+
+.altmsg {
+  font-Style: italic;
+  opacity: 0.8;
+  font-size: 12px;
+}
+
+.formatList {
+  float: left;
+  padding: 20px;
+}
+
+.carddimension {
+  width: 150px;
+  height: 252px;
+}
+
+.title {
+  height: 40px;
+  margin-top: 3px;
+  margin-bottom: 3px;
+  font-size: 14px;
+}
+/*# sourceMappingURL=dailies.module.css.map */

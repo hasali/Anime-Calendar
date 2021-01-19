@@ -1,0 +1,70 @@
+@import '../node_modules/react-big-calendar/lib/sass/variables';
+$text-color:#272727;
+$primary-color: #f2f3f5;
+$secondaryColor: #2f3136;
+$desc-text: rgb(235,235,2350);
+$font-weights: (
+    "regular": 400,
+    "medium": 500,
+    "bold": 700
+);
+$event-bg:(
+    "light": rgba(31, 125, 247, 0.7),
+    "dark": rgba(175, 16, 43, 0.89)
+);
+$card-width: 240px;
+$transition-time: 0.4s;
+$event-bg-light: rgba(31, 125, 247, 0.7);
+$event-bg-dark: rgba(175, 16, 43, 0.89);
+
+.dark{
+    background-color: $event-bg-dark;
+}
+.rbc-event{
+    background-color: $event-bg-dark;
+}
+@font-face {
+    font-family: Titillium;
+    src: url("../Titillium_Web/TitilliumWeb-Black.ttf");
+}
+
+@font-face {
+    font-family: Dosis;
+    src: url("../Dosis-VariableFont_wght.ttf");
+}
+
+@function weight($weight-name){
+    @return map-get($font-weights, $weight-name);
+}
+@function themeSecondaryColor($theme){
+    @return map-get($event-bg , $theme);
+}
+@mixin theme($dark-theme: true){
+    @if $dark-theme {
+        
+        background: $secondaryColor;
+        color: lighten($text-color, 80%)
+    }
+    
+}
+
+@mixin transition-ease {
+    transition: all $transition-time ease-in;
+}
+
+@function set-text-color($color){
+    @if (lightness($color) > 40%){
+        @return rgb(117, 115, 115);
+    }
+    @else {
+        @return rgb(224, 224, 224);
+    }
+
+}
+@mixin filter($filter-type,$filter-amount) {
+    -webkit-filter: unquote($filter-type+unquote('(#{$filter-amount})'));
+    -moz-filter: unquote($filter-type+unquote('(#{$filter-amount})'));
+    -ms-filter: unquote($filter-type+unquote('(#{$filter-amount})'));
+    -o-filter: unquote($filter-type+unquote('(#{$filter-amount})'));
+    filter: unquote($filter-type+unquote('(#{$filter-amount})'));
+  }

@@ -1,0 +1,36 @@
+@import './config';
+
+
+.header{
+    width:200px;
+    margin-top: auto;
+    margin-bottom: auto;
+    
+}
+.image{
+    
+    width: 500px;
+    margin-right:100px;;
+}
+.image{
+    
+    width: 500px;
+    margin-left:100px;;
+}
+.lightbg{
+    background:rgba(18, 68, 134, 0.726);
+}
+.darkbg{
+    background: rgb(168, 58, 76);
+}
+.bgc {
+    
+    
+    display: flex;
+    color: $primary-color;
+    h3{
+        font-family: Dosis;
+        font-weight: weight(bold);
+        //text-transform: uppercase;
+    }  
+}

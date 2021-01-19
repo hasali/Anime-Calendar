@@ -1,0 +1,118 @@
+.dark {
+  background-color: rgba(175, 16, 43, 0.89);
+}
+
+.rbc-event {
+  background-color: rgba(175, 16, 43, 0.89);
+}
+
+@font-face {
+  font-family: Titillium;
+  src: url("../Titillium_Web/TitilliumWeb-Black.ttf");
+}
+
+@font-face {
+  font-family: Dosis;
+  src: url("../Dosis-VariableFont_wght.ttf");
+}
+
+.titleContainer {
+  height: 20px;
+  overflow: hidden;
+}
+
+.title:link, .title:visited {
+  color: #f2f3f5;
+  text-decoration: none;
+}
+
+.genres {
+  list-style: none;
+  display: inline;
+}
+
+.genres li {
+  display: inline;
+  font-size: 13px;
+  font-style: italic;
+}
+
+.genres li::after {
+  content: " ";
+  white-space: pre;
+}
+
+.test {
+  color: white;
+}
+
+.bgc {
+  background: #f2f3f5;
+  color: #757373;
+  font-family: Dosis;
+}
+
+.bind {
+  position: absolute;
+}
+
+.bind:hover .description {
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+}
+
+.bind:hover img.blur {
+  -webkit-filter: blur(4px);
+          filter: blur(4px);
+}
+
+.bind:hover .screen {
+  -webkit-box-shadow: inset 0px 0px 100px #242323;
+          box-shadow: inset 0px 0px 100px #242323;
+  -webkit-filter: blur(4px);
+          filter: blur(4px);
+}
+
+.screen {
+  position: absolute;
+  width: 105%;
+  height: 102%;
+  -webkit-transition: all 0.4s ease-in;
+  transition: all 0.4s ease-in;
+  border-radius: 0.5px;
+  top: -2.5px;
+  left: -5px;
+}
+
+img.blur {
+  -webkit-filter: blur(0px);
+          filter: blur(0px);
+  -webkit-transition: all 0.4s ease-in;
+  transition: all 0.4s ease-in;
+}
+
+.description {
+  height: 100%;
+  top: 0px;
+  left: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  position: absolute;
+  margin: 3px;
+  -webkit-transform: translateX(240px);
+          transform: translateX(240px);
+  -webkit-transition: all 0.4s ease-in;
+  transition: all 0.4s ease-in;
+  overflow-y: scroll;
+  color: #ebebff;
+}
+
+.description::-webkit-scrollbar {
+  display: none;
+}
+
+.light {
+  background: #2f3136;
+  color: #f3f3f3;
+}
+/*# sourceMappingURL=main.module.css.map */

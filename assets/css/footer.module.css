@@ -1,0 +1,26 @@
+.dark {
+  background-color: rgba(175, 16, 43, 0.89);
+}
+
+.rbc-event {
+  background-color: rgba(175, 16, 43, 0.89);
+}
+
+@font-face {
+  font-family: Titillium;
+  src: url("../Titillium_Web/TitilliumWeb-Black.ttf");
+}
+
+@font-face {
+  font-family: Dosis;
+  src: url("../Dosis-VariableFont_wght.ttf");
+}
+
+.footerbgc {
+  height: 100px;
+}
+
+.copyright {
+  margin-left: 30px;
+}
+/*# sourceMappingURL=footer.module.css.map */

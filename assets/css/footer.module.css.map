@@ -1,0 +1,11 @@
+{
+    "version": 3,
+    "mappings": "ACmBA,AAAA,KAAK,CAAA;EACD,gBAAgB,EAHJ,uBAAuB;CAItC;;AACD,AAAA,UAAU,CAAA;EACN,gBAAgB,EANJ,uBAAuB;CAOtC;;AACD,UAAU;EACN,WAAW,EAAE,SAAS;EACtB,GAAG,EAAE,8CAA8C;;;AAGvD,UAAU;EACN,WAAW,EAAE,KAAK;EAClB,GAAG,EAAE,qCAAqC;;;AD9B9C,AAAA,UAAU,CAAA;EACN,MAAM,EAAE,KAAK;CAIhB;;AACD,AAAA,UAAU,CAAA;EACN,WAAW,EAAE,IAAI;CACpB",
+    "sources": [
+        "../../scss/footer.module.scss",
+        "../../scss/_config.scss",
+        "../../node_modules/react-big-calendar/lib/sass/variables.scss"
+    ],
+    "names": [],
+    "file": "footer.module.css"
+}

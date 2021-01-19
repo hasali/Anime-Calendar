@@ -1,0 +1,95 @@
+@import './config';
+//@import '../node_modules/react-big-calendar/lib/sass/styles';
+.titleContainer{
+    height: 20px;
+    overflow:hidden;
+}
+.title:link, .title:visited{
+    color: $primary-color;
+    text-decoration: none;
+    
+}
+
+.genres{
+    list-style: none;
+    display: inline;
+    //float: left;
+    //overflow: hidden;
+    
+}
+.genres li{
+    display: inline;
+    font-size: 13px;
+    font-style: italic;
+}
+.genres li::after{
+    content: " ";
+    white-space: pre;
+}
+.test{
+    color: white;
+}
+.bgc{
+    background: $primary-color ;
+    color: set-text-color($primary-color);
+    font-family: Dosis;
+}
+//v1
+.bind{
+    
+    position: absolute;
+   
+   &:hover{
+    
+       .description{
+            transform: translateX(0);
+       }
+       img.blur{
+           
+            filter: blur(4px);
+       
+       }
+       .screen{
+            box-shadow: inset 0px 0px 100px rgb(36, 35, 35);
+            filter:blur(4px);
+        
+       }
+   }
+}
+.screen{
+    position: absolute;
+    width: 100% + 5%;
+    height: 100% + 2%;
+    @include transition-ease;
+    border-radius: 0.5px;
+    top: -2.5px;
+    left: -5px;
+}
+
+img.blur{
+
+    filter: blur(0px);
+    @include transition-ease;
+        
+}
+
+.description
+    {
+        height: 100%;
+        top: 0px;
+        left: 0px;
+        box-sizing:border-box;
+        position: absolute;
+        margin: 3px;
+        transform: translateX($card-width);
+        @include transition-ease;
+        overflow-y:scroll ;
+        color: $desc-text;
+    }
+    .description::-webkit-scrollbar {
+        display: none;
+      }
+
+.light{
+    @include theme($dark-theme: true);
+}

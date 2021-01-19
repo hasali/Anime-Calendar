@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../../node_modules/react-widgets/lib/scss/variables.scss"
+    ],
+    "names": [],
+    "file": "variables.css"
+}

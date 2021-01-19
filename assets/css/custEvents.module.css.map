@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,MAAM,CAAA;EAEF,gBAAgB,EAAE,IAAI;CACzB",
+    "sources": [
+        "../../scss/custEvents.module.scss"
+    ],
+    "names": [],
+    "file": "custEvents.module.css"
+}

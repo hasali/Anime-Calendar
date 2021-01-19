@@ -1,0 +1,38 @@
+An SPA anime calendar app that shows upcoming anime releases in calendar format. Written in js with the react(Next.js) 
+framework using react-big-calendar component.
+
+The final result should have a banner at the top saying "Anime Calendar". A section underneath the banner for 
+anime coming out today. The main calendar component in the middle and footers if applicable. 
+
+By Hassan Mahmood
+
+		DETAILS
+
+GENERAL
+-------------------------------------
+
+
+
+
+Add visual cue to most aniticapated animes?
+
+
+FETCH
+-------------------------------------
+-Separate season by months
+	-Re fetch every time month is changed or add all seasons?
+	-One big array/multiple arrays?
+
+UI
+-------------------------------------
+-Popups
+	-Adjust CSS of popup (title, empty space)
+	-Add Genre 
+	-Adjust star color by score (bad=red, good=green, etc)
+
+
+-Add CSS
+	-adjust banner(not centering when screen size changing)
+	-Add dark theme
+	
+C8C4-C584

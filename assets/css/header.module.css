@@ -1,0 +1,54 @@
+.dark {
+  background-color: rgba(175, 16, 43, 0.89);
+}
+
+.rbc-event {
+  background-color: rgba(175, 16, 43, 0.89);
+}
+
+@font-face {
+  font-family: Titillium;
+  src: url("../Titillium_Web/TitilliumWeb-Black.ttf");
+}
+
+@font-face {
+  font-family: Dosis;
+  src: url("../Dosis-VariableFont_wght.ttf");
+}
+
+.header {
+  width: 200px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.image {
+  width: 500px;
+  margin-right: 100px;
+}
+
+.image {
+  width: 500px;
+  margin-left: 100px;
+}
+
+.lightbg {
+  background: rgba(18, 68, 134, 0.726);
+}
+
+.darkbg {
+  background: #a83a4c;
+}
+
+.bgc {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #f2f3f5;
+}
+
+.bgc h3 {
+  font-family: Dosis;
+  font-weight: 700;
+}
+/*# sourceMappingURL=header.module.css.map */
